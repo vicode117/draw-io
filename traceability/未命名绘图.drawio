@@ -1,49 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T08:54:49.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5kFTSHibfc3PVDyO6gly" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T10:18:05.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jAxSJU2nu4qWlDcDXA_3" version="22.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-0" value="TopWinLogger&lt;br style=&quot;font-size: 12px;&quot;&gt;(deploy on TopImage)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="400" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-3" value="Traceability Archive Service&lt;br style=&quot;font-size: 12px;&quot;&gt;(deploy on Storage Server)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="400" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-4" value="Minio Server&lt;br style=&quot;font-size: 12px;&quot;&gt;(deploy on Storage Server)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="940" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-6" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s6kir9JPfMrWhmbEcXFn-0" target="s6kir9JPfMrWhmbEcXFn-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s6kir9JPfMrWhmbEcXFn-3" target="s6kir9JPfMrWhmbEcXFn-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="430" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-16" value="主要功能" style="swimlane;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="580" width="310" height="200" as="geometry">
+            <mxRectangle x="450" y="180" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-17" value="1. 根据Object Name和Bucket Name查询图像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-16">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-18" value="2. 使用GUID作为图像名称，将图像上传至MNIO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-16">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-19" value="3. 创建Minio的Bucket，用于存储vision图像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-16">
+          <mxGeometry x="5" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-20" value="Traceability Archive Web App&lt;br&gt;(deploy on Storage Server)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1360" y="400" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-21" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s6kir9JPfMrWhmbEcXFn-20" target="s6kir9JPfMrWhmbEcXFn-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="205" as="sourcePoint" />
+            <mxPoint x="410" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-22" value="主要功能" style="swimlane;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="930" y="280" width="390" height="120" as="geometry">
+            <mxRectangle x="450" y="180" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-27" value="通过Web 界面展示和查询客户所有机器已归档的质量图像" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-22">
+          <mxGeometry x="10" y="30" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-30" value="主要功能" style="swimlane;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="90" width="420" height="310" as="geometry">
+            <mxRectangle x="450" y="180" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-35" value="3. 用户通过TopWinlogger界面查询本地存储时间之前的job图像数据时&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;，调用Archive Service获取当前job包含的所有图像的object Name，并&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;加载初始图像数据，点击切换时，通过object Name获取图像的minio&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;链接进行展示。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-30">
+          <mxGeometry y="160" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-36" value="2. 当job done或累积未上传图像达到一定数量后， 对图像进行打包，&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;然后通过gRPC/http将图像发送到Storage Server&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-30">
+          <mxGeometry x="10" y="90" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-37" value="1.job开始后，通过http接口传输Job和LeadEnd Crimp的信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-30">
+          <mxGeometry x="10" y="40" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-38" value="需要关注的问题" style="swimlane;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="530" width="480" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-39" value="1. &lt;b style=&quot;font-size: 12px;&quot;&gt;gRPC&lt;/b&gt;,传输图像可以考虑采用gRPC来提高数据传输效率" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-38">
+          <mxGeometry x="40" y="36" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-41" value="2. &lt;b style=&quot;font-size: 12px;&quot;&gt;批量上传&lt;/b&gt;，job done或累积未上传图像达到一定数量后，进行打包然后传输， 防止过多并发请求，导致服务端资源消耗太高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-38">
+          <mxGeometry x="40" y="113" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="s6kir9JPfMrWhmbEcXFn-42" value="3.&lt;b style=&quot;font-size: 12px;&quot;&gt;离线同步&lt;/b&gt;，服务器或客户端可能会离线，导致大量图像和job信息堆积在本地未上传，需要定时检查本地未能成功上传的数据，常识进行上传，用户还可以手动执行&lt;br style=&quot;font-size: 12px;&quot;&gt;(考虑通过HangFire之类的库实现)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="s6kir9JPfMrWhmbEcXFn-38">
+          <mxGeometry x="40" y="180" width="320" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
