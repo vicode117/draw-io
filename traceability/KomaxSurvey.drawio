@@ -1,11 +1,32 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="E2VFYo1PNSfyyOUbtZvf">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2qUKpxzRkWsJpAkVV3Bd-1" value="Komax Survey项目认证授权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="250" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qUKpxzRkWsJpAkVV3Bd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qUKpxzRkWsJpAkVV3Bd-2" target="2qUKpxzRkWsJpAkVV3Bd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qUKpxzRkWsJpAkVV3Bd-2" value="把lucy给出的客户联系列表导入到数据库，&lt;div&gt;设计一下客户编号，公司编号方便尽心数值匹配&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="520" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2qUKpxzRkWsJpAkVV3Bd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qUKpxzRkWsJpAkVV3Bd-3" target="2qUKpxzRkWsJpAkVV3Bd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qUKpxzRkWsJpAkVV3Bd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2qUKpxzRkWsJpAkVV3Bd-3" target="2qUKpxzRkWsJpAkVV3Bd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2qUKpxzRkWsJpAkVV3Bd-3" value="开发API接口，获取公司列表api，获取公司对应人员列表api" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="527.5" width="270" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2qUKpxzRkWsJpAkVV3Bd-5" value="在komax survey项目中，填写公司时，调用列表来匹配公司" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="526.25" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2qUKpxzRkWsJpAkVV3Bd-7" value="通过模糊匹配公司，进一步匹配 到姓名 或者 手机号 或者 邮箱 来确认是老客户" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="663.75" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
